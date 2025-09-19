@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Python package/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and outputs
+*.log
+*.out
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data caches and temp data
+*.cache/
+.cache/
+/tmp/
+
+# Large/raw data files (keep small sample CSVs if needed)
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.joblib
+
+# Ignore local environment & tool settings
+*.code-workspace
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials (never commit)
+*.env
+.env*
+.secrets*
+
+# Optional: Uncomment to ignore all CSVs except the tracked dataset
+#*.csv
+# !loan_approval_dataset.csv
