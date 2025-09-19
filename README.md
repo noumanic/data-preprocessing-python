@@ -53,6 +53,12 @@ You can install everything quickly:
 pip install numpy pandas scikit-learn seaborn matplotlib scipy notebook
 ```
 
+### How to clone
+```bash
+git clone https://github.com/noumanic/data-preprocessing-python.git
+cd data-preprocessing-python
+```
+
 ### How to run the notebooks (Windows PowerShell)
 1. (Optional) Create and activate a virtual environment:
    ```bash
@@ -78,41 +84,5 @@ pip install numpy pandas scikit-learn seaborn matplotlib scipy notebook
 - Add simple baseline models (e.g., logistic regression, tree‑based) using the engineered features.
 - Track experiments and metrics (e.g., with a lightweight ML metadata tracker) if you extend this project.
 
-### Version control and GitHub
-Use the commands below to initialize a repository in this folder and push it to GitHub.
-
-#### One‑time Git setup (global; skip if already configured)
-```bash
-git config --global user.name "YOUR_NAME"
-git config --global user.email "YOUR_EMAIL@example.com"
-```
-
-#### Initialize, commit, and push to a new GitHub repository
-1. Initialize and make the first commit:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: preprocessing notebooks and dataset"
-   ```
-2. Create an empty repository on GitHub (via the GitHub UI). Copy its URL.
-3. Point your local repo to GitHub and push (HTTPS example):
-   ```bash
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO.git
-   git push -u origin main
-   ```
-   If you use SSH:
-   ```bash
-   git remote add origin git@github.com:USERNAME/REPO.git
-   git push -u origin main
-   ```
-
-#### If the remote already exists
-```bash
-git remote -v
-# If needed, update it
-git remote set-url origin https://github.com/noumanic/REPO.git
-```
-
----
-If you need a `requirements.txt`, a `.gitignore` for notebooks/data, or CI/CD instructions, say the word and I’ll add them.
+### Credits
+Made by Muhammad Nouman Hafeez (@noumanic)
